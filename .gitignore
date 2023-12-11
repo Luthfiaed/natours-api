@@ -1,0 +1,9 @@
+README.md
+*.env
+commands.txt
+import-dev-data.js
+/dev-data
+
+# compiled output
+/dist
+/node_modules
