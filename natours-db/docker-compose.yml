@@ -1,12 +1,12 @@
-version: "3"
+version: '3'
 services:
   mongo_db:
     image: mongo
     ports:
       - 27019:27017
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=natours-app
-      - MONGO_INITDB_ROOT_PASSWORD=minyong123
+      - MONGO_INITDB_ROOT_USERNAME=<ask_owner>
+      - MONGO_INITDB_ROOT_PASSWORD=<ask_owner>
 
   mongo_seeder:
     image: mongo_seeder
